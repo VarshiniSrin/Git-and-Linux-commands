@@ -35,3 +35,28 @@ GIT COMMANDS
 NOTE : DON'T ALTER THESE FILES EVER.
 >>ls -la
 //Lists all sub directories including hidden (administrative privileges) ones
+
+9.
+>>git add .
+//Adds all the changes to the stage
+
+10.
+>>git commit -m "<Enter meaningful message for the new change/(s)>"
+//Add everything in the stage onto Github with the messages and time stamps
+
+---------------------------------------------------------
+
+11.
+>>git log
+//Looking at all our commits
+
+12.
+>>git log --author="<name_of_your_friend_who_you_want_to_see_commit_of>"
+//Lists all commits of that particular person
+
+13.
+>>git status
+//Compares your local working directory with the repo/github project that you commit and displays all the files you modified if any
+
+14.
+>>
