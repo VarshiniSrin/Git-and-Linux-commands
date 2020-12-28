@@ -1,0 +1,33 @@
+
+
+LINUX COMMANDS
+--------------
+1.
+>>clear
+//to clear screen (Not specific to git)
+
+2.
+>>pwd
+//Displays present working directory
+
+3.
+>>ls -l
+//Display all the sub directories in the current directory
+
+4.
+>>ls -la
+//Lists all sub directories including hidden (administrative privileges) ones
+
+5.
+>>cd
+//Change directory
+
+6.
+>>cd ~
+//Goes to home directory
+
+7.
+>>cd ..
+//Takes you back one directory
+
+
