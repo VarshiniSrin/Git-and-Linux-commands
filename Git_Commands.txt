@@ -1,4 +1,10 @@
 
+3 step process of Git
+---------------------
+working copy > staging area > repository
+(local comp)   
+
+
 
 GIT COMMANDS
 ------------
@@ -35,6 +41,7 @@ GIT COMMANDS
 NOTE : DON'T ALTER THESE FILES EVER.
 >>ls -la
 //Lists all sub directories including hidden (administrative privileges) ones
+
 
 9.
 >>git add .
