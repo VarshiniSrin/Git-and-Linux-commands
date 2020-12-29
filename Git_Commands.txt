@@ -1,77 +1,97 @@
-
+--------------------------------------------------------------------------------------------------------------------------------------------------
 3 step process of Git
----------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------
 working copy > staging area > repository
 (local comp)   
 
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------
 GIT COMMANDS
-------------
+--------------------------------------------------------------------------------------------------------------------------------------------------
 1. 
 >>git config --global user.name "<Your_name>"
-//Use 1 and 2 to create a new user
+	//Use 1 and 2 to create a new user
 
 2.
 >>git config --global user.email "<Your_email>"
 
 3.
 >>git config --list
-//Shows all the configurations
+	//Shows all the configurations
 
 4.
 >>git config <any_configuration (ex: user.email)>
-//to view user email configuration
+	//to view user email configuration
 
 5.
 >>git help
-//Gives help menu
+	//Gives help menu
 
 6.
 >>git help <any_help_name (ex: commit)>
-//Opens commit info on browser
+	//Opens commit info on browser
 
-----------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
 7.
 >>git init
-//Turning a directory into a git repo/project
-
+	//Turning a directory into a git repo/project
+	
 8.
 NOTE : DON'T ALTER THESE FILES EVER.
 >>ls -la
-//Lists all sub directories including hidden (administrative privileges) ones
+	//Lists all sub directories including hidden (administrative privileges) ones
 
 
 9.
 >>git add .
-//Adds all the changes to the stage
+	//Adds all the changes to the stage
 
 10.
 >>git commit -m "<Enter meaningful message for the new change/(s)>"
-//Add everything in the stage onto Github with the messages and time stamps
+	//Add everything in the stage onto Github with the messages and time stamps
 
----------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 11.
 >>git log
-//Looking at all our commits
+	//Looking at all our commits
 
 12.
 >>git log --author="<name_of_your_friend_who_you_want_to_see_commit_of>"
-//Lists all commits of that particular person
+	//Lists all commits of that particular person
 
 13.
 >>git status
-//Compares your local working directory with the repo/github project that you commit and displays all the files you modified if any
+	//Compares your local working directory with the repo/github project that you commit and displays all the files you modified if any
 
 14.
 >>git diff
-//Displays the changes in the local file that are different from the git repository file.
+	//Displays the changes in the local file that are different from the git repository file.
 
 15.
 >>git diff --staged
-//Displays the changes in the staging area that are different from the git repository file.
+	//Displays the changes in the staging area that are different from the git repository file.
+
+16.
+>>git rm <File_name>
+	//Deletes this file from repo and local system.
+	//After deleting, you need to commit once again to save the change.
+
+17.
+>>git add <New_Name>
+>>git rm <Old_Name>
+>>git commit -m "Renamed <Old_Name> to <New_Name>"
+	//When we rename a file, Git thinks we deleted it and added a new file with a new name that just happens to have the same content.
+	//Therefore if we git status, it will show us that we have 2 uncommitted changes (Deleting a file and adding a file). 
+	//So, we need to   (1)add the new file to the staging area,   (2)remove the old file from repo and  (3)commit.
+
+OR
+>>git mv <Old_Name> <New_Name>
+	//Moving the file from one file to another is an easier way to rename it. This renames Old_Name with New_Name.
+
+18.
+>>git mv <File_Name> <Folder_location>
+	//Moving a file to a new folder
 
 
->>
