@@ -1,0 +1,13 @@
+-------------------------------------------------------------------
+STEPS:
+--------------------------------------------------------------------
+
+1. Create a Git repository on the website.
+2. Follow the steps in Git_Commands.txt to push your folder into a git repository.
+3. (Taking the URL you are given in Github for the newly created repo)
+>>git remote add <Alias_to_the_Github_URL> <Github URL>
+
+4.
+>>git push -u <Alias> master
+	//Upload your code onto Github
+
