@@ -66,4 +66,10 @@ NOTE : DON'T ALTER THESE FILES EVER.
 //Compares your local working directory with the repo/github project that you commit and displays all the files you modified if any
 
 14.
+>>git diff
+//Displays the changes in the local file that are different from the git repository file.
+
+15.
+
+
 >>
