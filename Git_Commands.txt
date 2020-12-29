@@ -70,6 +70,8 @@ NOTE : DON'T ALTER THESE FILES EVER.
 //Displays the changes in the local file that are different from the git repository file.
 
 15.
+>>git diff --staged
+//Displays the changes in the staging area that are different from the git repository file.
 
 
 >>
