@@ -112,4 +112,9 @@ OR
 >>git reset HEAD <File_Name>
 	//Unstaging a file. Take it off the stage.
 
+22.
+>>git checkout <First 7+ characters of our Commit_Code> -- <File_Name_that_you_want_to_revert_to_an_older_commit)
+	//Revert a specific file's content to any previous commit's content 
+	//Add and then commit it
+
 
