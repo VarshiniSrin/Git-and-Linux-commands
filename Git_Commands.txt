@@ -94,4 +94,9 @@ OR
 >>git mv <File_Name> <Folder_location>
 	//Moving a file to a new folder
 
-
+19.
+>>git commit -am "<Message>"
+	//Don't use this command unless you have made only simple edits inside your file.
+	//Commit directly from your local folder. (Use this if you don't want to push it into the staging area and then into your git repo. It's a shortcut) 
+	//Pushes all files into repo. 
+	//Do not use if you only want to push in a subset of files
