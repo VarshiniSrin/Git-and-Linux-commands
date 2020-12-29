@@ -100,3 +100,16 @@ OR
 	//Commit directly from your local folder. (Use this if you don't want to push it into the staging area and then into your git repo. It's a shortcut) 
 	//Pushes all files into repo. 
 	//Do not use if you only want to push in a subset of files
+
+------------------------------------------------------------------------------------------------------------------------------
+
+20.
+>>git checkout -- <File_Name>
+	//Supposing <File_Name> has not been committed; if you want to, this command will replace our local system file <File_Name> with the repo file <File_Name>
+	//ex. if you made changes you want to revert
+
+21.
+>>git reset HEAD <File_Name>
+	//Unstaging a file. Take it off the stage.
+
+
