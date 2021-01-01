@@ -48,6 +48,14 @@ NOTE : DON'T ALTER THESE FILES EVER.
 	//Adds all the changes to the stage
 
 10.
+>>git reset HEAD -- .
+	//Remove everything from the stage
+
+11.
+>>git reset HEAD -- <path/to/file>
+//Remove a specific file from the stage
+
+12.
 >>git commit -m "<Enter meaningful message for the new change/(s)>"
 	//Add everything in the stage onto Github with the messages and time stamps
 
@@ -116,5 +124,4 @@ OR
 >>git checkout <First 7+ characters of our Commit_Code> -- <File_Name_that_you_want_to_revert_to_an_older_commit)
 	//Revert a specific file's content to any previous commit's content 
 	//Add and then commit it
-
 
