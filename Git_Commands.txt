@@ -53,7 +53,7 @@ NOTE : DON'T ALTER THESE FILES EVER.
 
 11.
 >>git reset HEAD -- <path/to/file>
-//Remove a specific file from the stage
+	//Remove a specific file from the stage
 
 12.
 >>git commit -m "<Enter meaningful message for the new change/(s)>"
@@ -124,4 +124,12 @@ OR
 >>git checkout <First 7+ characters of our Commit_Code> -- <File_Name_that_you_want_to_revert_to_an_older_commit)
 	//Revert a specific file's content to any previous commit's content 
 	//Add and then commit it
+
+23.
+>>git commit --amend -m "<New_commit_message>"
+>>git push --force <branch_name/URL> master
+	//Editing (amending) your last commit message. 2 steps:
+	// (1) Enter the new commit message using the 1st command
+	// (2) Force push onto Github
+
 
